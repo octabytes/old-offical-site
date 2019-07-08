@@ -678,7 +678,12 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <form class="contact-form-area" action="mail.php" method="post" id="contact-form">
+                    <form 
+                        class="contact-form-area"  
+                        method="post" 
+                        id="contact-form" 
+                        action="https://script.google.com/macros/s/AKfycbw4KeaWLFYMxFdOnnpgrLhut5WbD6r3cYmBbim1xQ/exec">
+                        
                         <div class="row contact-form">
                             <div class="form-group col-md-12">
                                 <input name="name" class="form-control" placeholder="Name" type="text" id="name">
@@ -693,7 +698,7 @@
                                 <textarea name="message" class="yourmessage form-control" placeholder="Message"></textarea>
                             </div>	
                             <div class="submit-form form-group col-sm-12">
-                                <button class="button submit-btn" type="submit"><span>Submit</span></button>
+                                <button id="contact-form-btn" class="button submit-btn" type="submit"><span>Submit</span></button>
                                 <p class="form-messege"></p>
                             </div>											
                         </div>
@@ -798,9 +803,10 @@
 <script src="assets/js/bootstrap.min.js"></script>
 <!-- Plugins JS -->
 <script src="assets/js/plugins.js"></script>
+<!-- Ajax Mail -->
+<script src="assets/js/ajax-mail.js"></script>
 <!-- Main JS -->
 <script src="assets/js/main.js"></script>
-
 
 </body>
 </html>

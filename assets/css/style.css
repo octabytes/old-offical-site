@@ -2516,6 +2516,9 @@ body.box-body {
 .team-5 .thumb {
   display: inline-block;
 }
+.thumb img {
+  border-radius: 50%;
+}
 .team-5 .team-hover-action {
   position: absolute;
   top: 0;
